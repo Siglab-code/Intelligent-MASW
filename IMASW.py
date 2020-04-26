@@ -43,7 +43,6 @@ class masw():
             plt.plot(omega/(2*np.pi), yt, ':', label='Prediction')    
             self.loss.append(np.sqrt(np.sum(loss**2))) 
             plt.title('TRF Algorithm, Iteration Number: %s; L2 Norm: %s' %(len(self.loss), int(self.loss[-1])))
-            plt.savefig('dispersion_update.png')  
             plt.legend() 
             plt.xlabel('frequency (Hz)') 
             plt.ylabel('Phase Velocity (m/s)')
