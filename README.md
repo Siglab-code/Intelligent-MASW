@@ -1,5 +1,5 @@
 # MASW-Inversion
-This package inverts the MASW dispersion curves  
+MASW inversion, as simple as this: 
 
 filename = ''  
 
