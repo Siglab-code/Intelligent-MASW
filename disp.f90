@@ -47,8 +47,7 @@ complex*16 :: D3(2,2),T3(2,2), SK3(2,2), lmu,cp2,cs2, S2INV(4,4),sk(4,4)
         
      if (kp .NE. 0 .and. ks .NE. 0 ) then 
  
-              
-!*************************FOR 1-3 LAYER******************************
+               
       IF (NL<=n-1) THEN
           
       DISP(1,1) = -km
