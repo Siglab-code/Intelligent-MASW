@@ -6,7 +6,7 @@
 
 MASW inversion, as simple as this: 
 
-$filename = '' $ 
+filename = ''  
 
 initial_guess = [] 
 
