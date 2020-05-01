@@ -4,16 +4,21 @@
 
 ## Install Required Library
 
-The multichannel analysis of surface waves (MASW) forward solver is implemented in Fortran. The MASW inversion is done through Python Scipy library. 
+The multichannel analysis of surface waves (MASW) forward solver is implemented in Fortran. The MASW inversion is done through Python Scipy library. The attached wrapper for Fortran code can only run in Linux system. For the Windows user, the Fortran code nees to be complied throough Numpy f2py function. The following dependencies are required: 
+
+gfortran compiler:
+```
+$ sudo apt install gfortran-9
+```
+
+blas and lapack library: 
 
 ```
-$ pip install tensorflow
-```
+$ sudo apt-get install libblas-dev checkinstall 
+$ sudo apt-get install libblas-doc checkinstall 
+$ sudo apt-get install liblapacke-dev checkinstall 
+$ sudo apt-get install liblapack-doc checkinstall
 
-A smaller CPU-only package is also available:
-
-```
-$ pip install tensorflow-cpu
 ```
  
  
