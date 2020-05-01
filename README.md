@@ -27,12 +27,12 @@ $ f2py -m name -c fortran.f90
 
 
 
-MASW inversion, as simple as this: 
+code demonstration:  
 
-Test = IMASW.masw(filename, initial_guess, lower_bound, upper_bound)   
-
-Test.inverse() 
-
+```
+$ Test = IMASW.masw(filename, initial_guess, lower_bound, upper_bound)    
+$ Test.inverse() 
+```
 
 ![Demo](/TRF.gif)
 
