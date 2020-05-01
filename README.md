@@ -4,15 +4,7 @@
 
 ## Install Required Library
 
-See the [TensorFlow install guide](https://www.tensorflow.org/install) for the
-[pip package](https://www.tensorflow.org/install/pip), to
-[enable GPU support](https://www.tensorflow.org/install/gpu), use a
-[Docker container](https://www.tensorflow.org/install/docker), and
-[build from source](https://www.tensorflow.org/install/source).
-
-To install the current release, which includes support for
-[CUDA-enabled GPU cards](https://www.tensorflow.org/install/gpu) *(Ubuntu and
-Windows)*:
+The multichannel analysis of surface waves (MASW) forward solver is implemented in Fortran. The MASW inversion is done through Python Scipy library. 
 
 ```
 $ pip install tensorflow
@@ -24,7 +16,7 @@ A smaller CPU-only package is also available:
 $ pip install tensorflow-cpu
 ```
  
-<img src="https://render.githubusercontent.com/render/math?math=e^{i +\pi} =x+1">  
+ 
 
 MASW inversion, as simple as this: 
 
