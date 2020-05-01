@@ -20,7 +20,7 @@ $ sudo apt-get install liblapacke-dev checkinstall
 $ sudo apt-get install liblapack-doc checkinstall
 ```
 
-Wrapper function: 
+wrapper function: 
 ```
 $ f2py -m name -c fortran.f90
 ```
