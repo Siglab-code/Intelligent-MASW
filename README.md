@@ -34,5 +34,5 @@ $ Test = IMASW.masw(filename, initial_guess, lower_bound, upper_bound)
 $ Test.inverse() 
 ```
 
-![Demo](/TRF.gif=200x200)
+![Demo](/TRR.gif)
 
