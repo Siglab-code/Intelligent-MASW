@@ -11,5 +11,5 @@ Test = IMASW.masw(filename, initial_guess, lower_bound, upper_bound)
 Test.inverse() 
 
 
-![Alt Text](/TRF.gif)
+![Demo](/TRF.gif)
 
