@@ -21,7 +21,7 @@ $ sudo apt-get install liblapack-doc checkinstall
 
 wrapper function: 
 ```
-$ f2py -m name -c fortran.f90
+$ f2py -m name -c fortran.f90 -llapack
 ```
 
 
